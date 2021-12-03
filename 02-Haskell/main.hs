@@ -1,4 +1,4 @@
-input = ["forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"]
+--input = ["forward 5", "down 5", "forward 8", "up 3", "down 8", "forward 2"]
 
 process1 :: [String] -> (Int, Int)
 process1 a = processRecursive1 a
@@ -34,5 +34,6 @@ multiplyTouple :: (Int, Int) -> Int
 multiplyTouple (a, b) = a * b
 
 main = do
+    input <- lines <$> readFile("./input.txt")
     putStrLn . show . multiplyTouple $ process1 input
     putStrLn . show . multiplyTouple $ process2 input
