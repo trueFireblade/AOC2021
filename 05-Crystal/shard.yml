@@ -1,0 +1,23 @@
+name: 05-Crystal
+version: 0.1.0
+
+
+targets:
+  main:
+    main: src/main.cr
+# authors:
+#   - name <email@example.com>
+
+# description: |
+#   Short description of 05-Crystal
+
+# dependencies:
+#   pg:
+#     github: will/crystal-pg
+#     version: "~> 0.5"
+
+# development_dependencies:
+#   webmock:
+#     github: manastech/webmock.cr
+
+# license: MIT
