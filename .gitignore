@@ -2,3 +2,5 @@
 02-Haskell/*.o
 02-Haskell/main
 03-Elm/elm-stuff
+04-F#/bin
+04-F#/obj
